@@ -1,0 +1,20 @@
+/* 页面小部件 */
+.white_icon {
+    background-image: url('https://s2.music.126.net/style/web2/img/white-r-icon@3x.png');
+
+}
+
+/* 通用的播放按钮  灰色圆圈 */
+a.icon_play {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    background-position: 0 0;
+    background-image: url(https://s2.music.126.net/style/web2/img/iconall.png);
+    background-repeat: no-repeat;
+
+}
+
+a.icon_play:hover {
+    background-position: 0 -60px;
+}

@@ -1,0 +1,421 @@
+/*1. top顶部 */
+.m_top {
+    width: auto;
+    height: 70px;
+    background: #242424;
+}
+
+.m_top .wrap {
+    width: 1100px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+/* logo图标 */
+.h1_logo {
+    float: left;
+    width: 176px;
+    height: 69px;
+    background-position: 0 18px;
+    background-image: url('../image/topbar.png');
+    background-repeat: no-repeat;
+}
+
+/* 发现音乐，我的音乐，导航条 */
+.m_top ul.navWrap {
+    float: left;
+
+}
+
+.m_top ul.navWrap li {
+    float: left;
+    padding: 0 19px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 70px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.m_top ul.navWrap li.z_slt {
+    background: #0000;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* hot标签 */
+.hot {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+    width: 28px;
+    height: 19px;
+    background-position: -190px 0;
+    background-image: url('../image/tapbar.png');
+    background-repeat: no-repeat;
+}
+
+/* 顶部，搜索框 */
+.m_top .music_serarch {
+    float: right;
+    width: 158px;
+    height: 30px;
+    margin-top: 25px;
+    background-position: 0 -91px;
+    background-color: #fff;
+    border-radius: 32px;
+    background-image: url('../image/tapbar.png');
+    position: relative;
+
+}
+
+.m_top .music_search input.searchInput {
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 16px;
+    margin: 7px 0 0 30px;
+}
+
+.m_top .music_serarch label {
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    width: 90%;
+    color: #9b9b9b;
+    cursor: text;
+    font-size: 12px;
+}
+
+.creator_a {
+    float: right;
+    width: 90px;
+    height: 32px;
+    margin: 19px 0 0 12px;
+    box-sizing: border-box;
+    padding-left: 16px;
+    border: 1px solid #4F4F4F;
+
+    line-height: 33px;
+    color: #ccc;
+    border-radius: 20px;
+    font-size: 12px;
+    text-decoration: none;
+    /* 引用网易云 */
+}
+
+.creator_a:hover {
+    border: 1px solid #fff;
+}
+
+/* 登录按钮 */
+.loginBtn {
+    float: right;
+    height: 45px;
+    margin: 27px 0 0 20px;
+    padding: 0 20px 0 0;
+    background-position: right -47px;
+    background-image: none;
+    color: #787878;
+    font-size: 12px;
+}
+
+/* 2.红色haeder条 */
+.subNavWarp {
+    width: 100%;
+    height: 35px;
+    background: #C20C0C;
+    border-bottom: 1px solid #a40011;
+    margin-top: auto;
+}
+
+.subNavWarp .wrap {
+    width: 1100px;
+    height: 34px;
+    margin: 0 auto;
+
+}
+
+.subNavWarp .wrap ul {
+    padding-left: 180px;
+}
+
+.subNavWarp .wrap li {
+    float: left;
+    color: #fff;
+    font-size: 12px;
+    height: 34px;
+    cursor: pointer;
+    line-height: 34px;
+    padding: 0 13px;
+    margin: 2px 17px 0 0;
+    border-radius: 20px;
+
+}
+
+.subNavWarp .wrap li em {
+    height: 20px;
+    padding: 2px 13px;
+}
+
+.subNavWarp .wrap li:hover em {
+    background: #9B0909;
+    height: 20px;
+    padding: 2px 13px;
+    border-radius: 20px;
+
+}
+
+.subNavWarp .wrap li em.emBg {
+    background: #9B0909;
+    height: 20px;
+    padding: 2px 13px;
+    border-radius: 20px;
+}
+
+/* 3.轮播图 */
+/* < !-- 首页轮播图开始 --> */
+.sliderWrap {
+    width: 100%;
+    height: 285px;
+    background: #f00;
+}
+
+.sliderWrap .wrap {
+    width: 982px;
+    height: 285px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sliderWrap .wrap img {
+    display: block;
+    width: 730px;
+    cursor: pointer;
+}
+
+.download_app {
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    right: -1px;
+    width: 254px;
+    height: 285px;
+    background-image: url(../image/download.jpg);
+    background-repeat: no-repeat;
+}
+
+a.downBtn {
+    display: block;
+    width: 215px;
+    height: 56px;
+    margin: 186px 0 0 19px;
+    background-position: 0 9999px;
+    text-indent: -9999px;
+}
+
+.slider_Dots {
+    position: absolute;
+    top: 259px;
+    left: 0;
+    width: 730px;
+    height: 20px;
+    text-align: center;
+
+
+
+}
+
+
+.slider_Dots a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/banner.png);
+    background-repeat: no-repeat;
+    background-position: -3px -343px;
+}
+
+.slider_Dots a:hover {
+    background-position: -15px -343px;
+}
+
+.slider_Dots a.red_dot {
+    background-position: -15px -343px;
+}
+
+/* 轮播图左右按钮 */
+.sliderWrap .wrap a.leftBtn {
+    margin-top: -31px;
+    display: block;
+    width: 37px;
+    height: 63px;
+
+    position: absolute;
+    left: -68px;
+    top: 50%;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/banner.png);
+    background-repeat: no-repeat;
+    background-position: 0 -360px;
+}
+
+.sliderWrap .wrap a.leftBtn:hover {
+    background-position: 0 -430px;
+}
+
+.sliderWrap .wrap a.rightBtn {
+    margin-top: -31px;
+    display: block;
+    width: 37px;
+    height: 63px;
+
+    position: absolute;
+    right: -68px;
+    top: 50%;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/banner.png);
+    background-repeat: no-repeat;
+    background-position: 0 -508px;
+}
+
+.sliderWrap .wrap a.rightBtn:hover {
+    background-position: 0 -578px;
+}
+
+
+/* 最后可以合并一下相同属性   左右按钮共同属于*/
+
+/* < !-- 首页轮播图结束 --> */
+
+/* 4.歌曲列表，业务模块 */
+/* 页面主体背景色 */
+.mainWrap {
+    min-width: 982px;
+    background: #f5f5f5;
+    /* 来个临时高度撑起
+     */
+    height: 1000px;
+}
+
+.midlleWrap {
+    width: 980px;
+    min-height: 700px;
+    margin: 0 auto;
+    border: 1px solid #d3d3d3;
+    border-width: 0 1px;
+    background: #fff;
+}
+
+.midlleWrap div.leftWrap {
+    width: 723px;
+    height: 400px;
+    background: #fff;
+    float: left;
+    overflow: hidden;
+    /* 防御性的编写  写一下页面正常时，用不到的 */
+
+}
+
+/* 热门推荐
+         */
+.hot_video {
+    margin: 20px 20px 0 20px;
+    padding: 0 0px 0 34px;
+    height: 33px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png);
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+    background-repeat: no-repeat;
+}
+
+.hot_video a.rmtj_title {
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* 热门推荐一排小按钮 */
+.rmtj_taBtn {
+    float: left;
+    margin: 7px 0 0 20px;
+}
+
+.rmtj_taBtn a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rmtj_taBtn span.line {
+    margin: 0 10px;
+    color: #ccc;
+    font-size: 12px;
+}
+
+/* 热门推荐的更多·？ */
+.hot_video span.more {
+    float: right;
+    font-size: 12px;
+    margin: 11px 0 0 0;
+    padding: 0 25px 0 0;
+    color: #666;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png);
+    background-repeat: no-repeat;
+    background-position: 31 -240px;
+
+}
+
+/* 热门推荐歌曲列表 */
+ul.rmtj_content {
+    margin: 20px 0 0 0;
+}
+
+ul.rmtj_content li {
+    float: left;
+    width: 140px;
+    height: 204px;
+    margin: 0 0 30px 42px;
+}
+
+/* 热门推荐单个歌曲  */
+.song_cover {
+    width: 140px;
+    height: 140px;
+    position: relative;
+}
+
+.song_cover img {
+    width: 140px;
+    height: 140px;
+}
+
+ul.rmtj_content li p.dec {
+    margin: 8px 0 3px;
+    font-size: 14px;
+}
+
+.song_cover div.buttom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    background-position: 0 -537px;
+    color: #ccc;
+    background-image: url(https://s2.music.126.net/style/web2/img/coverall.png);
+    background-repeat: no-repeat;
+
+}
+
+
+.midlleWrap div.rightWrap {
+    width: 243px;
+    height: 400px;
+    background: #0f0;
+    float: right;
+
+}

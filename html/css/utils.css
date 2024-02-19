@@ -1,0 +1,30 @@
+/* 公共的属性
+ */
+.pr {
+    position: relative;
+
+}
+
+.pa {
+    position: absolute;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a.a_666 {
+    color: #666 !important;
+}
+
+a.f12 {
+    font-size: 12px !important;
+}
+
+a.f12:hover {
+    text-decoration: underline;
+}
