@@ -309,11 +309,13 @@ a.downBtn {
 }
 
 .midlleWrap div.leftWrap {
-    width: 723px;
+    width: 729px;
     height: 400px;
+    padding: 30px;
     background: #fff;
     float: left;
     overflow: hidden;
+    border-right: 1px solid #d3d3d3;
     /* 防御性的编写  写一下页面正常时，用不到的 */
 
 }
@@ -372,6 +374,7 @@ a.downBtn {
 /* 热门推荐歌曲列表 */
 ul.rmtj_content {
     margin: 20px 0 0 0;
+    overflow: hidden;
 }
 
 ul.rmtj_content li {
@@ -386,6 +389,7 @@ ul.rmtj_content li {
     width: 140px;
     height: 140px;
     position: relative;
+    cursor: pointer;
 }
 
 .song_cover img {
@@ -396,6 +400,10 @@ ul.rmtj_content li {
 ul.rmtj_content li p.dec {
     margin: 8px 0 3px;
     font-size: 14px;
+}
+
+ul.rmtj_content li p.dec:hover {
+    text-decoration: underline;
 }
 
 .song_cover div.buttom {
@@ -411,11 +419,101 @@ ul.rmtj_content li p.dec {
 
 }
 
+span.playNumber {
+    font-size: 12px;
+    color: #ccc;
+    float: left;
+    margin: 8px 0 0 0;
+}
+
+span.icon_headset {
+
+    float: left;
+    width: 14px;
+    height: 11px;
+    background-position: 0 -24px;
+    margin: 9px 5px 9px 10px;
+    background-image: url(https://s2.music.126.net/style/web2/img/iconall.png);
+    background-repeat: no-repeat;
+}
+
+/* 新碟上架 */
+div.xdsj_wrap {
+    height: 186px;
+    margin: 20px 20px 37px 20px;
+    border: 1px solid #d3d3d3;
+    background: #f5f5f5;
+}
+
+div.xdsj_wrap a.leftBtn {
+    display: block;
+    position: relative;
+    left: 4px;
+    top: 71px;
+    width: 17px;
+    height: 17px;
+    background-position: -260px -75px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png);
+    background-repeat: no-repeat;
+}
+
+div.xdsj_wrap a.rightBtn {
+    display: block;
+    position: relative;
+    left: 4px;
+    top: 71px;
+    width: 17px;
+    height: 17px;
+    background-position: -300px -75px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png);
+    background-repeat: no-repeat;
+}
 
 .midlleWrap div.rightWrap {
-    width: 243px;
+    width: 250px;
     height: 400px;
-    background: #0f0;
     float: right;
 
+}
+
+/* 右侧  用户登录 */
+.userLoginWrap {
+    height: 126px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.userLoginWrap p {
+    width: 205px;
+    margin: 0 auto;
+    padding: 16px 0;
+    line-height: 22px;
+    font-size: 12px;
+    color: #666;
+}
+
+.userLoginWrap a.login_a {
+    display: block;
+    width: 100px;
+    height: 31px;
+    line-height: 31px;
+    color: #fff;
+    text-shadow: 0 1px 0 #8a060b;
+    margin: 0 auto;
+    font-size: 12px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png);
+    background-repeat: no-repeat;
+    background-position: -9px -195px;
+
+
+}
+
+/* 页面尾部、 */
+.footerWrap {
+    position: relative;
+    height: 325px;
+    overflow: hidden;
+    border-top: 1px solid #d3d3d3;
+    background: #f2f2f2;
 }
